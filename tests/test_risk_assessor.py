@@ -11,5 +11,5 @@ def test_risk_assessor_basic():
 
 def test_risk_assessor_empty_input():
     """Test risk_assessor handles empty input."""
-    result = {aname}(dict())
+    result = risk_assessor(dict())
     assert isinstance(result, dict)

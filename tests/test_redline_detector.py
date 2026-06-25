@@ -11,5 +11,5 @@ def test_redline_detector_basic():
 
 def test_redline_detector_empty_input():
     """Test redline_detector handles empty input."""
-    result = {aname}(dict())
+    result = redline_detector(dict())
     assert isinstance(result, dict)

@@ -1,0 +1,156 @@
+{
+  "id": "estonia-e-residency-compliance-automator",
+  "idea": "Estonia e-Residency Compliance Automator",
+  "category": "legal",
+  "score": 65,
+  "icon": "\u2696\ufe0f",
+  "agents": 4,
+  "tags": [
+    "Risk Matrix",
+    "GDPR / SOC2"
+  ],
+  "monetization": "Free repo + $3K-8K setup",
+  "compliance": [
+    "GDPR",
+    "SOC2"
+  ],
+  "status": "published",
+  "created_at": "2026-06-25T19:59:00.853099+00:00",
+  "research": {
+    "problem_statement": "Businesses in legal spend significant manual effort on: Estonia e-Residency Compliance Automator. This automation eliminates repetitive tasks, reduces errors, and accelerates turnaround.",
+    "target_audience": "Law firms, legal departments, contract managers",
+    "competitor_analysis": "Contract review tools exist (Kira, Luminance) but are enterprise-priced. SMB market underserved.",
+    "technical_feasibility": "Medium \u2014 requires domain expertise, some custom integrations needed",
+    "monetization_strategy": "Free repo + $3K-8K setup",
+    "estimated_dev_hours": 32,
+    "roi_estimate": "Reduces contract review time by 60%. Pays for itself in 1-3 weeks."
+  },
+  "roadmap": {
+    "project_name": "Estonia E Residency Compliance Automator",
+    "repo_name": "estonia-e-residency-compliance-automator",
+    "description": "Businesses in legal spend significant manual effort on: Estonia e-Residency Compliance Automator. This automation eliminates repetitive tasks, reduces errors, and accelerates turnaround.",
+    "agent_pipeline": [
+      {
+        "name": "contract_parser",
+        "role": "Parse contracts, extract key clauses, dates, parties"
+      },
+      {
+        "name": "redline_detector",
+        "role": "Identify non-standard terms, risky clauses, deviations from template"
+      },
+      {
+        "name": "risk_assessor",
+        "role": "Score contract risk, generate negotiation recommendations"
+      },
+      {
+        "name": "compliance_checker",
+        "role": "Check GDPR, SOC2, and regulatory compliance requirements"
+      }
+    ],
+    "tech_stack": {
+      "language": "Python 3.11+",
+      "framework": "FastAPI",
+      "agent_framework": "LangGraph",
+      "testing": "pytest",
+      "ci_cd": "GitHub Actions",
+      "containerization": "Docker",
+      "docs": "Markdown + MkDocs"
+    },
+    "milestones": [
+      {
+        "phase": 1,
+        "name": "Agent 1: contract_parser",
+        "deliverable": "Working contract_parser with tests",
+        "acceptance": "Agent processes input and produces validated output for parse contracts, extract key clauses, dates, parties"
+      },
+      {
+        "phase": 2,
+        "name": "Agent 2: redline_detector",
+        "deliverable": "Working redline_detector with tests",
+        "acceptance": "Agent processes input and produces validated output for identify non-standard terms, risky clauses, deviations from template"
+      },
+      {
+        "phase": 3,
+        "name": "Agent 3: risk_assessor",
+        "deliverable": "Working risk_assessor with tests",
+        "acceptance": "Agent processes input and produces validated output for score contract risk, generate negotiation recommendations"
+      },
+      {
+        "phase": 4,
+        "name": "Agent 4: compliance_checker",
+        "deliverable": "Working compliance_checker with tests",
+        "acceptance": "Agent processes input and produces validated output for check gdpr, soc2, and regulatory compliance requirements"
+      },
+      {
+        "phase": 5,
+        "name": "Integration & Publish",
+        "deliverable": "Full pipeline tested, repo published, marketplace listing created",
+        "acceptance": "End-to-end pipeline runs, all tests pass, repo is public"
+      }
+    ],
+    "file_structure": [
+      "estonia-e-residency-compliance-automator/",
+      "\u251c\u2500\u2500 README.md",
+      "\u251c\u2500\u2500 LICENSE (MIT)",
+      "\u251c\u2500\u2500 pyproject.toml",
+      "\u251c\u2500\u2500 Dockerfile",
+      "\u251c\u2500\u2500 .github/",
+      "\u2502   \u2514\u2500\u2500 workflows/",
+      "\u2502       \u2514\u2500\u2500 ci.yml",
+      "\u251c\u2500\u2500 src/",
+      "\u2502   \u251c\u2500\u2500 __init__.py",
+      "\u2502   \u251c\u2500\u2500 pipeline.py",
+      "\u2502   \u251c\u2500\u2500 agents/",
+      "\u2502   \u2502   \u251c\u2500\u2500 __init__.py",
+      "\u2502   \u2502   \u2514\u2500\u2500 (one .py per agent)",
+      "\u2502   \u2514\u2500\u2500 config.py",
+      "\u251c\u2500\u2500 tests/",
+      "\u2502   \u251c\u2500\u2500 __init__.py",
+      "\u2502   \u251c\u2500\u2500 conftest.py",
+      "\u2502   \u2514\u2500\u2500 test_*.py",
+      "\u2514\u2500\u2500 docs/",
+      "    \u251c\u2500\u2500 setup.md",
+      "    \u2514\u2500\u2500 api.md"
+    ]
+  },
+  "build": {
+    "project_dir": "C:\\Users\\Admin\\Projects\\AgentsFactory\\AIdentify\\projects\\estonia-e-residency-compliance-automator",
+    "files_created": [
+      "README.md",
+      "pyproject.toml",
+      "Dockerfile",
+      ".github/workflows/ci.yml",
+      "src/pipeline.py",
+      "src/config.py",
+      "src/agents/contract_parser.py",
+      "src/agents/redline_detector.py",
+      "src/agents/risk_assessor.py",
+      "src/agents/compliance_checker.py",
+      "tests/test_contract_parser.py",
+      "tests/test_redline_detector.py",
+      "tests/test_risk_assessor.py",
+      "tests/test_compliance_checker.py",
+      "tests/test_pipeline.py",
+      "docs/setup.md"
+    ],
+    "total_files": 16
+  },
+  "publish": {
+    "github_url": "https://github.com/phanindraintelligenzit-afk/estonia-e-residency-compliance-automator",
+    "project_dir": "C:\\Users\\Admin\\Projects\\AgentsFactory\\AIdentify\\projects\\estonia-e-residency-compliance-automator",
+    "marketplace_card": {
+      "name": "Estonia E Residency Compliance Automator",
+      "category": "legal",
+      "description": "Businesses in legal spend significant manual effort on: Estonia e-Residency Compliance Automator. This automation elimin",
+      "icon": "\u2696\ufe0f",
+      "tags": [
+        "Risk Matrix",
+        "GDPR / SOC2"
+      ],
+      "agents": 4,
+      "github_url": "#",
+      "monetization": "Free repo + $3K-8K setup"
+    },
+    "published_at": "2026-06-25T19:59:06.235832+00:00"
+  }
+}

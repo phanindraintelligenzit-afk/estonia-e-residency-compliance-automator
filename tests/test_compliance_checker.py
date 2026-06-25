@@ -11,5 +11,5 @@ def test_compliance_checker_basic():
 
 def test_compliance_checker_empty_input():
     """Test compliance_checker handles empty input."""
-    result = {aname}(dict())
+    result = compliance_checker(dict())
     assert isinstance(result, dict)

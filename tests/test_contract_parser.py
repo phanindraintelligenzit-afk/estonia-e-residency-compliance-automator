@@ -11,5 +11,5 @@ def test_contract_parser_basic():
 
 def test_contract_parser_empty_input():
     """Test contract_parser handles empty input."""
-    result = {aname}(dict())
+    result = contract_parser(dict())
     assert isinstance(result, dict)

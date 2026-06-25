@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: estonia-e-residency-compliance-automator
+Version: 0.1.0
+Summary: AIdentify automation project
+Requires-Python: >=3.11
+Requires-Dist: fastapi>=0.110
+Requires-Dist: uvicorn>=0.29
+Requires-Dist: pydantic>=2.0
+Requires-Dist: langgraph>=0.1
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: pytest-cov>=5.0; extra == "dev"
+Requires-Dist: ruff>=0.4; extra == "dev"
